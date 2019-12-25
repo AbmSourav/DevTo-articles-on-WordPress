@@ -1,5 +1,5 @@
-=== DevTo articles on WordPress ===
-Plugin Name: DevTo articles on WordPress
+=== DevTo articles on WP ===
+Plugin Name: DevTo articles on WP
 Version: 0.0.5
 Author: sourav926
 Author URI: https://abmsourav.com/
@@ -12,11 +12,11 @@ Requires PHP: 5.4
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-**DevTo articles on WordPress** is a simple plugin which creates a bridge between DevCommunity and WordPress. It will help you to show your **dev.to** articles on WordPress site. You'll be able to do that with simple ShortCode `[dev_post user_name=abmsourav]`. You can add more options in the ShortCode `[dev_post user_name=abmsourav post_count=3 layout=grid]`
+**DevTo articles on WP** is a simple plugin which creates a bridge between DevCommunity and WordPress. It will help you to show your **dev.to** articles on WordPress site. You'll be able to do that with simple ShortCode `[dev_post user_name=abmsourav]`. You can add more options in the ShortCode `[dev_post user_name=abmsourav post_count=3 layout=grid]`
 
 == Description ==
 
-**DevTo articles on WordPress** is a simple plugin which creates a bridge between DevCommunity and WordPress.
+**DevTo articles on WP** is a simple plugin which creates a bridge between DevCommunity and WordPress.
 It will help you to show your **dev.to** articles on WordPress site.
 You'll be able to do that with simple ShortCode `[dev_post user_name=abmsourav]`.
 You can add more options in the ShortCode `[dev_post user_name=abmsourav post_count=3 layout=grid]`
@@ -31,7 +31,7 @@ I’m looking for your suggestion and feedback on how I can help you in a better
 Feel free to [share your opinion](https://fb.me/sourav926). And please don’t forget to share your feelings through ⭐️⭐️⭐️⭐️⭐️ ratting
 
 == Installation ==
-1. Upload the plugin files to the `/wp-content/plugins/devTo-articles-on-wordpress` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/devTo-articles-on-wp` directory, or install the plugin through the WordPress plugins screen directly.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
 == Screenshots ==
