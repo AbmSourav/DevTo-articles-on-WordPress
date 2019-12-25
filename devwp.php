@@ -1,15 +1,16 @@
 <?php
+/**
+ * @package DevToWP
+ */
 /*
 Plugin Name: DevTo articles on WordPress
 Plugin URI: http://wordpress.org/plugins/devto-articles-on-wordpress/
-Description: <strong>DevTo articles on WordPress</strong> is a simple plugin which creates a bridge between DevCommunity and WordPress. It will help you to show your <strong>dev.to</strong> articles on WordPress site. You'll be able to do that with simple ShortCode <code>[dev_post user_name=abmsourav]</code>
-Version: 0.0.2
+Description: <strong>DevTo articles on WordPress</strong> is a simple plugin which creates a bridge between DevCommunity and WordPress. It will help you to show your <strong>dev.to</strong> articles on WordPress site. You'll be able to do that with simple ShortCode <code>[dev_post user_name=abmsourav]</code>. You can add more options in the ShortCode <code>[dev_post user_name=abmsourav post_count=3 layout=grid]</code>
+Version: 0.0.3
 Author: Keramot UL Islam
 Author URI: https://abmsourav.com/
 License: GPLv2 or later
 Text Domain: devtowp
-
-@package DevToWP
 */
 
 /*
@@ -34,10 +35,10 @@ namespace DevToWP;
 
 defined( 'ABSPATH' ) || die();
 
-define( 'DEV_TO_WP_VERSION', '0.0.2' );
+define( 'DEV_TO_WP_VERSION', '0.0.3' );
 define( 'DEV_TO_WP_DIR_URL', plugin_dir_url( __FILE__ ) );
 
-function devwp_autoloader($class) {
+function devtowp_autoloader($class) {
     if ( false === strpos( $class, __NAMESPACE__ ) ) {
         return;
     }
@@ -45,7 +46,7 @@ function devwp_autoloader($class) {
 
     require_once __DIR__ . '/classes/' . strtolower( $class_name ) . '.php';
 }
-spl_autoload_register(__NAMESPACE__.'\devwp_autoloader');
+spl_autoload_register(__NAMESPACE__.'\devtowp_autoloader');
 
 Assets::initialization();
 

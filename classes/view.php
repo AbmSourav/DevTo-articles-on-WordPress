@@ -3,6 +3,8 @@ namespace DevToWP;
 
 defined( 'ABSPATH' ) || die();
 /**
+ * Data visualization
+ *
  * @package DevToWP
  */
 
@@ -10,12 +12,8 @@ class View {
 
     public static function markup($data, $atts) {
         ?>
-        <div class="devto-posts devto-<?php echo esc_attr($atts['layout']); ?>">
-            <?php foreach ( $data as $item ) :
-//                echo "<pre>";
-//                print_r($item);
-//                echo "</pre>";
-                ?>
+        <div class="devto-posts devto-<?php echo esc_attr( $atts['layout'] ); ?>">
+            <?php foreach ( $data as $item ) : ?>
                 <div class="devto-item">
 
                     <div class="devto-badge">

@@ -7,6 +7,15 @@
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
+@media (max-width: 767.98px) {
+    .devto-posts.devto-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .devto-post-meta {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+}
 
 .devto-item {
     position: relative;

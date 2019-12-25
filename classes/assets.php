@@ -3,6 +3,8 @@ namespace DevToWP;
 
 defined( 'ABSPATH' ) || die();
 /**
+ *  Necessary assets loading
+ *
  * @package DevToWP
  */
 
