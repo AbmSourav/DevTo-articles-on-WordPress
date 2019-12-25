@@ -6,7 +6,7 @@
 Plugin Name: DevTo articles on WordPress
 Plugin URI: http://wordpress.org/plugins/devto-articles-on-wordpress/
 Description: <strong>DevTo articles on WordPress</strong> is a simple plugin which creates a bridge between DevCommunity and WordPress. It will help you to show your <strong>dev.to</strong> articles on WordPress site. You'll be able to do that with simple ShortCode <code>[dev_post user_name=abmsourav]</code>. You can add more options in the ShortCode <code>[dev_post user_name=abmsourav post_count=3 layout=grid]</code>
-Version: 0.0.3
+Version: 0.0.5
 Author: Keramot UL Islam
 Author URI: https://abmsourav.com/
 License: GPLv2 or later
