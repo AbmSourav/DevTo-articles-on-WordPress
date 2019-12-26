@@ -3,3 +3,18 @@
 
 # Ada Library Information
 *.ali
+
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+
+# Rider
+.idea/
+
+# Output folder used by Webpack or other FE stuff
+**/node_modules/*
+
+# Mac desktop service store files
+.DS_Store
+
+# wordpress.org svn folder
+**/org/*
